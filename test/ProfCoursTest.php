@@ -185,7 +185,6 @@ class ProfCoursTest extends TestCase
         foreach (self::$cours_a as $cours) {
             $cours->add($conn);
         }
-        
         /**
         *
         * Question 8 : Dans la fonction « testAdd() », s’inspirer de test d’ajout des profs pour tester l’ajout des cours.   
